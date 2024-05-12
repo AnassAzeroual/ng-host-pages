@@ -22,6 +22,7 @@ import { ThemeModule } from './theme/theme.module';
 import { lightTheme } from './theme/light-theme';
 import { darkTheme } from './theme/dark-theme';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 registerLocaleData(en);
 const ngZorroConfig: NzConfig = {
@@ -31,10 +32,11 @@ const ngZorroConfig: NzConfig = {
 };
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
-    LoginComponent
-  ],
+    LoginComponent,
+      PageNotFoundComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
