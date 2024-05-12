@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "rm -rf /docs && ng cache clean && ng build --aot --output-path docs --base-href ./",
+    "build": "rm -rf /docs && ng cache clean && ng build --aot --output-path docs --base-href /ng-host-pages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
