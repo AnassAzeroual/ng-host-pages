@@ -13,7 +13,7 @@ const routes: Routes = [
 
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{enableTracing:true,useHash:true})],
+  imports: [RouterModule.forRoot(routes,{enableTracing:false,useHash:false})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
