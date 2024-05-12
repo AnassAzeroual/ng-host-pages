@@ -15,7 +15,7 @@ export class AppComponent implements OnInit, OnDestroy {
     window.addEventListener('beforeunload', (event) => {
       event.returnValue = 'lol'; // Optional: Display a confirmation message (see notes below)
       // Redirect user to your desired URL:
-      window.location.href = 'https://anassazeroual.github.io/ng-host-pages/';
+      window.open('https://anassazeroual.github.io/ng-host-pages/', '_blank');
     });
   }
 
