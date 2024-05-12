@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1715534419787,
+  "timestamp": 1715534684457,
   "index": "./ng-host-pages/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "./ng-host-pages/740.eb4185658329a473.js",
         "./ng-host-pages/favicon.ico",
         "./ng-host-pages/index.html",
-        "./ng-host-pages/main.f3fa5894b80cf82f.js",
+        "./ng-host-pages/main.5c8495409a1e4e21.js",
         "./ng-host-pages/manifest.webmanifest",
         "./ng-host-pages/polyfills.3b0019cbd311e274.js",
         "./ng-host-pages/runtime.beba2a7d3657783d.js",
@@ -56,8 +56,8 @@
     "./ng-host-pages/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "./ng-host-pages/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "./ng-host-pages/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "./ng-host-pages/index.html": "941b8d9ba0f4d550e7e89d8de7b5e551fff9750c",
-    "./ng-host-pages/main.f3fa5894b80cf82f.js": "33cbd1d799cb1abde4c669e93af7229b0f2d3cfb",
+    "./ng-host-pages/index.html": "1d299ed31b824e741cbe2a950969e6c4ccff44fc",
+    "./ng-host-pages/main.5c8495409a1e4e21.js": "6a533bc0cff1c680c2bc847a9b9ee3586495ee42",
     "./ng-host-pages/manifest.webmanifest": "09ccb698003708d18686730f0c616c16341e5621",
     "./ng-host-pages/polyfills.3b0019cbd311e274.js": "b64d6c81790a6e98d2e872c499bbe8bb9859310f",
     "./ng-host-pages/runtime.beba2a7d3657783d.js": "cd502fd927e102028599624d39a8634b6fb74b27",
