@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1715537211911,
-  "index": "./ng-lol/index.html",
+  "timestamp": 1715537383922,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,15 +11,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "./ng-lol/432.35849706bb0a2967.js",
-        "./ng-lol/740.eb4185658329a473.js",
-        "./ng-lol/favicon.ico",
-        "./ng-lol/index.html",
-        "./ng-lol/main.c5ee6529d541564e.js",
-        "./ng-lol/manifest.webmanifest",
-        "./ng-lol/polyfills.3b0019cbd311e274.js",
-        "./ng-lol/runtime.beba2a7d3657783d.js",
-        "./ng-lol/styles.45483b45db41a763.css"
+        "/432.35849706bb0a2967.js",
+        "/740.eb4185658329a473.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.c5ee6529d541564e.js",
+        "/manifest.webmanifest",
+        "/polyfills.3b0019cbd311e274.js",
+        "/runtime.beba2a7d3657783d.js",
+        "/styles.45483b45db41a763.css"
       ],
       "patterns": []
     },
@@ -31,37 +31,37 @@
         "ignoreVary": true
       },
       "urls": [
-        "./ng-lol/assets/icons/icon-128x128.png",
-        "./ng-lol/assets/icons/icon-144x144.png",
-        "./ng-lol/assets/icons/icon-152x152.png",
-        "./ng-lol/assets/icons/icon-192x192.png",
-        "./ng-lol/assets/icons/icon-384x384.png",
-        "./ng-lol/assets/icons/icon-512x512.png",
-        "./ng-lol/assets/icons/icon-72x72.png",
-        "./ng-lol/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "./ng-lol/432.35849706bb0a2967.js": "a63a96c1235384e0571a32ade045864e45521f62",
-    "./ng-lol/740.eb4185658329a473.js": "7aa3beda7d5d207d303a9a9e95fdcf4e147007b3",
-    "./ng-lol/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
-    "./ng-lol/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
-    "./ng-lol/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
-    "./ng-lol/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
-    "./ng-lol/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "./ng-lol/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "./ng-lol/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
-    "./ng-lol/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
-    "./ng-lol/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "./ng-lol/index.html": "15833bf1cd90d975132d4448110d5f110baa5ce6",
-    "./ng-lol/main.c5ee6529d541564e.js": "a25e6cb579428c5ac95e8a23e3e09e0a6955d6a5",
-    "./ng-lol/manifest.webmanifest": "09ccb698003708d18686730f0c616c16341e5621",
-    "./ng-lol/polyfills.3b0019cbd311e274.js": "b64d6c81790a6e98d2e872c499bbe8bb9859310f",
-    "./ng-lol/runtime.beba2a7d3657783d.js": "cd502fd927e102028599624d39a8634b6fb74b27",
-    "./ng-lol/styles.45483b45db41a763.css": "e08056fa694507f629ff31d4c1d7e6163ce35f97"
+    "/432.35849706bb0a2967.js": "a63a96c1235384e0571a32ade045864e45521f62",
+    "/740.eb4185658329a473.js": "7aa3beda7d5d207d303a9a9e95fdcf4e147007b3",
+    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "35dac8f8cf9fc89d5fdf55717e23f53aca975ab7",
+    "/main.c5ee6529d541564e.js": "a25e6cb579428c5ac95e8a23e3e09e0a6955d6a5",
+    "/manifest.webmanifest": "09ccb698003708d18686730f0c616c16341e5621",
+    "/polyfills.3b0019cbd311e274.js": "b64d6c81790a6e98d2e872c499bbe8bb9859310f",
+    "/runtime.beba2a7d3657783d.js": "cd502fd927e102028599624d39a8634b6fb74b27",
+    "/styles.45483b45db41a763.css": "e08056fa694507f629ff31d4c1d7e6163ce35f97"
   },
   "navigationUrls": [
     {
