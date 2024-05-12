@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1715537568609,
-  "index": "/index.html",
+  "timestamp": 1715537744537,
+  "index": "./ng/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,15 +11,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "/432.35849706bb0a2967.js",
-        "/740.eb4185658329a473.js",
-        "/favicon.ico",
-        "/index.html",
-        "/main.0b10d2713b73194e.js",
-        "/manifest.webmanifest",
-        "/polyfills.3b0019cbd311e274.js",
-        "/runtime.beba2a7d3657783d.js",
-        "/styles.45483b45db41a763.css"
+        "./ng/432.35849706bb0a2967.js",
+        "./ng/740.eb4185658329a473.js",
+        "./ng/favicon.ico",
+        "./ng/index.html",
+        "./ng/main.0b10d2713b73194e.js",
+        "./ng/manifest.webmanifest",
+        "./ng/polyfills.3b0019cbd311e274.js",
+        "./ng/runtime.beba2a7d3657783d.js",
+        "./ng/styles.45483b45db41a763.css"
       ],
       "patterns": []
     },
@@ -31,37 +31,37 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "./ng/assets/icons/icon-128x128.png",
+        "./ng/assets/icons/icon-144x144.png",
+        "./ng/assets/icons/icon-152x152.png",
+        "./ng/assets/icons/icon-192x192.png",
+        "./ng/assets/icons/icon-384x384.png",
+        "./ng/assets/icons/icon-512x512.png",
+        "./ng/assets/icons/icon-72x72.png",
+        "./ng/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/432.35849706bb0a2967.js": "a63a96c1235384e0571a32ade045864e45521f62",
-    "/740.eb4185658329a473.js": "7aa3beda7d5d207d303a9a9e95fdcf4e147007b3",
-    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
-    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
-    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
-    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
-    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "b17690fb56d9e6143595a2ca971a6d13dff92897",
-    "/main.0b10d2713b73194e.js": "eafbe32451ef8795f26cddf45d3b87a0b4f0de1d",
-    "/manifest.webmanifest": "09ccb698003708d18686730f0c616c16341e5621",
-    "/polyfills.3b0019cbd311e274.js": "b64d6c81790a6e98d2e872c499bbe8bb9859310f",
-    "/runtime.beba2a7d3657783d.js": "cd502fd927e102028599624d39a8634b6fb74b27",
-    "/styles.45483b45db41a763.css": "e08056fa694507f629ff31d4c1d7e6163ce35f97"
+    "./ng/432.35849706bb0a2967.js": "a63a96c1235384e0571a32ade045864e45521f62",
+    "./ng/740.eb4185658329a473.js": "7aa3beda7d5d207d303a9a9e95fdcf4e147007b3",
+    "./ng/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "./ng/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "./ng/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "./ng/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "./ng/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "./ng/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "./ng/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "./ng/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "./ng/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "./ng/index.html": "aa4ca5410e618d02c86abcbf5631ce396fcdb172",
+    "./ng/main.0b10d2713b73194e.js": "eafbe32451ef8795f26cddf45d3b87a0b4f0de1d",
+    "./ng/manifest.webmanifest": "09ccb698003708d18686730f0c616c16341e5621",
+    "./ng/polyfills.3b0019cbd311e274.js": "b64d6c81790a6e98d2e872c499bbe8bb9859310f",
+    "./ng/runtime.beba2a7d3657783d.js": "cd502fd927e102028599624d39a8634b6fb74b27",
+    "./ng/styles.45483b45db41a763.css": "e08056fa694507f629ff31d4c1d7e6163ce35f97"
   },
   "navigationUrls": [
     {
