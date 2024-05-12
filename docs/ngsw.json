@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1715533382134,
+  "index": "./ng-host-pages/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./ng-host-pages/432.35849706bb0a2967.js",
+        "./ng-host-pages/740.eb4185658329a473.js",
+        "./ng-host-pages/favicon.ico",
+        "./ng-host-pages/index.html",
+        "./ng-host-pages/main.096ed9c82a9df229.js",
+        "./ng-host-pages/manifest.webmanifest",
+        "./ng-host-pages/polyfills.3b0019cbd311e274.js",
+        "./ng-host-pages/runtime.beba2a7d3657783d.js",
+        "./ng-host-pages/styles.45483b45db41a763.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./ng-host-pages/assets/icons/icon-128x128.png",
+        "./ng-host-pages/assets/icons/icon-144x144.png",
+        "./ng-host-pages/assets/icons/icon-152x152.png",
+        "./ng-host-pages/assets/icons/icon-192x192.png",
+        "./ng-host-pages/assets/icons/icon-384x384.png",
+        "./ng-host-pages/assets/icons/icon-512x512.png",
+        "./ng-host-pages/assets/icons/icon-72x72.png",
+        "./ng-host-pages/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "./ng-host-pages/432.35849706bb0a2967.js": "a63a96c1235384e0571a32ade045864e45521f62",
+    "./ng-host-pages/740.eb4185658329a473.js": "7aa3beda7d5d207d303a9a9e95fdcf4e147007b3",
+    "./ng-host-pages/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "./ng-host-pages/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "./ng-host-pages/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "./ng-host-pages/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "./ng-host-pages/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "./ng-host-pages/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "./ng-host-pages/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "./ng-host-pages/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "./ng-host-pages/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "./ng-host-pages/index.html": "917a90404acd449ed610ff3b0f159249c0fee99b",
+    "./ng-host-pages/main.096ed9c82a9df229.js": "3650a0ded244e2ebb490bcac76370a092ccf9623",
+    "./ng-host-pages/manifest.webmanifest": "09ccb698003708d18686730f0c616c16341e5621",
+    "./ng-host-pages/polyfills.3b0019cbd311e274.js": "b64d6c81790a6e98d2e872c499bbe8bb9859310f",
+    "./ng-host-pages/runtime.beba2a7d3657783d.js": "cd502fd927e102028599624d39a8634b6fb74b27",
+    "./ng-host-pages/styles.45483b45db41a763.css": "e08056fa694507f629ff31d4c1d7e6163ce35f97"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
