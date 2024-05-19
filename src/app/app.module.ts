@@ -34,11 +34,11 @@ const ngZorroConfig: NzConfig = {
 @NgModule({
   declarations: [	
     AppComponent,
-    LoginComponent,
-      PageNotFoundComponent
-   ],
+    PageNotFoundComponent
+  ],
   imports: [
     BrowserModule,
+    LoginComponent,
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
