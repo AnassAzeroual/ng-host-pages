@@ -6,13 +6,13 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   styleUrls: ['./image-segmentation.component.scss']
 })
 export class ImageSegmentationComponent {
-  imageSrc = './assets/jae-house-fly-pest.jpg';
+  imageSrc = 'https://img-3.journaldesfemmes.fr/67FUkoh5eR4pifYOp8M1ZHtFSLA=/1500x/smart/4a520d9ec186489f8e0d028e002ef082/ccmcms-jdf/15415852.jpg';
   @ViewChild('imageCanvas', { static: false }) canvas!: ElementRef<HTMLCanvasElement>;
 
   private ctx!: CanvasRenderingContext2D;
 
   private rectangles = [
-    { x: 280, y: 60, width: 550, height: 400 },
+    { x: 280, y: 60, width: 800, height: 880 },
     // { x: 200, y: 150, width: 80, height: 120 }
   ];
 
@@ -35,9 +35,10 @@ export class ImageSegmentationComponent {
   }
 
   private drawGridOverlay() {
-    const gridSize = 20; // Size of the grid cells
+    const gridSize = 15; // Size of the grid cells
     this.ctx.strokeStyle = 'rgba(0, 0, 0, 0.1)'; // Light gray grid lines
-    this.ctx.lineWidth = 1;
+    this.ctx.lineWidth = 1.5;
+
 
     for (let x = 0; x < this.canvas.nativeElement.width; x += gridSize) {
       for (let y = 0; y < this.canvas.nativeElement.height; y += gridSize) {
@@ -50,7 +51,7 @@ export class ImageSegmentationComponent {
   }
 
   private isInsideAnyRectangle(x: number, y: number, width: number, height: number): boolean {
-    return this.rectangles.some(rect => 
+    return this.rectangles.some(rect =>
       x < rect.x + rect.width && x + width > rect.x &&
       y < rect.y + rect.height && y + height > rect.y
     );
