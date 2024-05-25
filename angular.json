@@ -17,6 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "long",
+              "seedrandom",
+              "@tensorflow-models/coco-ssd"
+            ],
             "outputPath": "dist/ng-zoro-test",
             "index": "src/index.html",
             "main": "src/main.ts",

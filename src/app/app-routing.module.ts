@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'login', component:LoginComponent },
   { path: 'welcome', loadChildren: () => import('./pages/welcome/welcome.module').then(m => m.WelcomeModule) },
   { path: 'monitor', loadChildren: () => import('./pages/monitor/monitor.module').then(m => m.MonitorModule) },
+  { path: 'image', loadChildren: () => import('./pages/image-segmentation/image-segmentation.module').then(m => m.ImageSegmentationModule) },
   { path: '**', component: PageNotFoundComponent }
 ];
 
