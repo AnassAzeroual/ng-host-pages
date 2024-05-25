@@ -29,8 +29,31 @@ export class ImageSegmentationComponent {
       this.canvas.nativeElement.width = img.width;
       this.canvas.nativeElement.height = img.height;
       this.ctx.drawImage(img, 0, 0);
+      this.drawGridOverlay();
       this.drawRectangles();
     };
+  }
+
+  private drawGridOverlay() {
+    const gridSize = 20; // Size of the grid cells
+    this.ctx.strokeStyle = 'rgba(0, 0, 0, 0.1)'; // Light gray grid lines
+    this.ctx.lineWidth = 1;
+
+    for (let x = 0; x < this.canvas.nativeElement.width; x += gridSize) {
+      for (let y = 0; y < this.canvas.nativeElement.height; y += gridSize) {
+        // Check if the current grid cell overlaps with any rectangle
+        if (!this.isInsideAnyRectangle(x, y, gridSize, gridSize)) {
+          this.ctx.strokeRect(x, y, gridSize, gridSize);
+        }
+      }
+    }
+  }
+
+  private isInsideAnyRectangle(x: number, y: number, width: number, height: number): boolean {
+    return this.rectangles.some(rect => 
+      x < rect.x + rect.width && x + width > rect.x &&
+      y < rect.y + rect.height && y + height > rect.y
+    );
   }
 
   private drawRectangles() {
