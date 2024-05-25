@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716416388825,
+  "timestamp": 1716597345810,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,13 +12,14 @@
       },
       "urls": [
         "/432.801f1a2bddab7a09.js",
+        "/490.1eba36de9f77aef4.js",
         "/740.8d8f1df083748509.js",
         "/favicon.ico",
         "/index.html",
-        "/main.2e022ca85727f217.js",
+        "/main.9c3f61b4bc5d84f8.js",
         "/manifest.webmanifest",
         "/polyfills.3b0019cbd311e274.js",
-        "/runtime.2ab47e811223f6fb.js",
+        "/runtime.27bc7d59b30b4726.js",
         "/styles.45483b45db41a763.css"
       ],
       "patterns": []
@@ -38,7 +39,8 @@
         "/assets/icons/icon-384x384.png",
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-96x96.png",
+        "/assets/jae-house-fly-pest.jpg"
       ],
       "patterns": []
     }
@@ -46,6 +48,7 @@
   "dataGroups": [],
   "hashTable": {
     "/432.801f1a2bddab7a09.js": "5421d46fb44aa79428dd8333a01c143c56d940ad",
+    "/490.1eba36de9f77aef4.js": "89ec8490db5c1da076e070e428f7681796e86cc8",
     "/740.8d8f1df083748509.js": "94e00e89df39435c158521170a07f6bfaaac221c",
     "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
     "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
@@ -55,12 +58,13 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/assets/jae-house-fly-pest.jpg": "c382e7efdf286d99fd4b19f14a899a399aaa247d",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "4361f412cb153a83608c57bede984ea0e5b92c2b",
-    "/main.2e022ca85727f217.js": "887158189e4df9483da054b7acfe2415d6783cda",
+    "/index.html": "55e263dc79445c590165ddfe7f7026e7a5b8e4ac",
+    "/main.9c3f61b4bc5d84f8.js": "42260be2d8be780daddad32eb848e8a553c028a4",
     "/manifest.webmanifest": "99f1f195fc3694182bef02d0ad6269856dff84f7",
     "/polyfills.3b0019cbd311e274.js": "b64d6c81790a6e98d2e872c499bbe8bb9859310f",
-    "/runtime.2ab47e811223f6fb.js": "8a7267043249295f70bfeb6ef0ca0678257d297a",
+    "/runtime.27bc7d59b30b4726.js": "d9d91903dfa59913d761ba4791e54c57d532640d",
     "/styles.45483b45db41a763.css": "e08056fa694507f629ff31d4c1d7e6163ce35f97"
   },
   "navigationUrls": [
