@@ -12,8 +12,9 @@ export class ImageSegmentationComponent {
   private ctx!: CanvasRenderingContext2D;
 
   private rectangles = [
-    { x: 280, y: 60, width: 800, height: 880 },
-    // { x: 200, y: 150, width: 80, height: 120 }
+    { 'x': 343, 'y': 535, 'width': 200, 'height': 100, 'area': 0.0 },
+    { 'x': 436, 'y': 339, 'width': 360, 'height': 240, 'area': 212.5 },
+    { x: 200, y: 150, width: 80, height: 120 }
   ];
 
 
@@ -35,16 +36,16 @@ export class ImageSegmentationComponent {
   }
 
   private drawGridOverlay() {
-    const gridSize = 15; // Size of the grid cells
+    const gridSize = 13; // Size of the grid cells
     this.ctx.strokeStyle = 'rgba(0, 0, 0, 0.1)'; // Light gray grid lines
     this.ctx.lineWidth = 1.5;
-
 
     for (let x = 0; x < this.canvas.nativeElement.width; x += gridSize) {
       for (let y = 0; y < this.canvas.nativeElement.height; y += gridSize) {
         // Check if the current grid cell overlaps with any rectangle
         if (!this.isInsideAnyRectangle(x, y, gridSize, gridSize)) {
-          this.ctx.strokeRect(x, y, gridSize, gridSize);
+          this.ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';
+          this.ctx.fillRect(x, y, gridSize, gridSize);
         }
       }
     }
